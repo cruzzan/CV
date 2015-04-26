@@ -27,6 +27,7 @@
 \definecolor{red}{HTML}{FB4485}
 \definecolor{blue}{HTML}{6CE0F1}
 \definecolor{cyan}{HTML}{00FFFF}
+\definecolor{pink}{HTML}{FF69B4}
 
 \ifdefined\@cv@print
   \colorlet{green}{gray}
@@ -36,6 +37,7 @@
   \colorlet{red}{gray}
   \colorlet{blue}{gray}
   \colorlet{cyan}{gray}
+  \colorlet{pink}{gray}
   \colorlet{fillheader}{white}
   \colorlet{header}{gray}
 \else
@@ -106,6 +108,7 @@
         green\or%
         purple\or%
         cyan\or%
+        pink\or%
         brown\else%
         headercolor\fi%
     } #1#2#3%
